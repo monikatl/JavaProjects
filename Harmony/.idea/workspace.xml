@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="854758b2-3d9b-4318-942a-d45010d3135e" name="Default Changelist" comment="" />
+    <list default="true" id="854758b2-3d9b-4318-942a-d45010d3135e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/triad/TriadsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elements/triad/Triads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elements/triad/Triads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Harmony.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/elements/triad/Triads.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/elements/triad/Triads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Harmony.kotlin_module" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1X9ek7MzxTdXltRED14YG4UGTFe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,15 +34,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/SpringOdwrocenieZaleznosci" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="elements.triad" />
       <recent name="fundamental_date" />
       <recent name="tools" />
     </key>
@@ -42,14 +56,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CirclesOfFifthsTest.changeModeOfKey">
-    <configuration name="Harmony" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Harmony" />
-      <module name="Harmony" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TriadsTest.choseModeOfTriad_unexistMajorKey">
     <configuration name="CirclesOfFifthsTest.changeModeOfKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Harmony" />
       <extension name="coverage">
@@ -114,13 +121,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TriadsTest.choseModeOfTriad_unexistMajorKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Harmony" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elements.triad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elements.triad" />
+      <option name="MAIN_CLASS_NAME" value="elements.triad.TriadsTest" />
+      <option name="METHOD_NAME" value="choseModeOfTriad_unexistMajorKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TriadsTest.choseModeOfTriad_unexistMajorKey" />
         <item itemvalue="JUnit.CirclesOfFifthsTest.changeModeOfKey" />
         <item itemvalue="JUnit.CirclesOfFifthsTest.findDominant_inMinorKey" />
         <item itemvalue="JUnit.CirclesOfFifthsTest.findDominant_inMajorKeys" />
         <item itemvalue="JUnit.CirclesOfFifthsTest.findSubdominant_inMajorKeys" />
-        <item itemvalue="Application.Harmony" />
       </list>
     </recent_temporary>
   </component>
@@ -162,34 +185,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="491" y="75" width="374" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580642021527" />
-    <state x="466" y="121" width="424" height="479" key="FileChooserDialogImpl" timestamp="1580462958173">
+    <state x="466" y="121" width="424" height="479" key="FileChooserDialogImpl" timestamp="1580752199774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="466" y="121" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580462958173" />
-    <state width="1324" height="74" key="GridCell.Tab.0.bottom" timestamp="1580650292404">
+    <state x="466" y="121" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580752199774" />
+    <state width="1324" height="153" key="GridCell.Tab.0.bottom" timestamp="1580730646892">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="74" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580650292404" />
-    <state width="1324" height="74" key="GridCell.Tab.0.center" timestamp="1580650292403">
+    <state width="1324" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580730646892" />
+    <state width="1324" height="153" key="GridCell.Tab.0.center" timestamp="1580730646890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="74" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580650292403" />
-    <state width="1324" height="74" key="GridCell.Tab.0.left" timestamp="1580650292403">
+    <state width="1324" height="153" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580730646890" />
+    <state width="1324" height="153" key="GridCell.Tab.0.left" timestamp="1580730646890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="74" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580650292403" />
-    <state width="1324" height="74" key="GridCell.Tab.0.right" timestamp="1580650292403">
+    <state width="1324" height="153" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580730646890" />
+    <state width="1324" height="153" key="GridCell.Tab.0.right" timestamp="1580730646892">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="74" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580650292403" />
-    <state x="366" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1580673456812">
+    <state width="1324" height="153" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580730646892" />
+    <state x="366" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1580752138225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="366" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580673456812" />
-    <state x="417" y="46" width="455" height="583" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580650078799">
+    <state x="366" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580752138225" />
+    <state x="417" y="46" width="455" height="583" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580724786926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="417" y="46" width="455" height="583" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580650078799" />
+    <state x="417" y="46" width="455" height="583" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.0.1024.768@0.0.1366.728" timestamp="1580724786926" />
     <state x="99" y="61" width="1157" height="598" key="new project wizard" timestamp="1580673473359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

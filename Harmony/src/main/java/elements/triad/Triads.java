@@ -25,7 +25,7 @@ public abstract class Triads implements NoteOfTriad {
         Triads triad;
         if(Character.isUpperCase(keyChar)){
             triad = new MajorTriad(key);
-        }else{
+        }else {
             triad = new MinorTriad(key);
         }
         return triad;

@@ -50,18 +50,5 @@ public class InvoiceStream {
                     .map(Invoice::getDescriptionAndInvoiceAmount)
                     .forEach(System.out::println);
 
-        System.out.println();
-
-        String pila = "pila";
-        Predicate<Invoice> pila = invoice -> invoice.getPartDescription().contains("");
-
-        CharSequence k = "bla";
-        String g = "bla";
-
-        System.out.println("Wszystkie pily:");
-        listInvoices.stream()
-                    .filter(pila)
-                    .forEach(System.out::println);
-
     }
 }

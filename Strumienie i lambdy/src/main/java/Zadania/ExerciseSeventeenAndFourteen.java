@@ -2,15 +2,19 @@ package Zadania;
 
 import java.util.List;
 import java.util.Random;
+import java.util.Spliterator;
+import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 public class ExerciseSeventeenAndFourteen {
     public static void main(String[] args) {
+
         List<Integer> myTab = choseRandomLetters();
         myTab.stream()
-                .map(number -> Character.toChars(number))
+                .map(number -> String.valueOf(Character.toChars(number)))
                 .distinct()
-                .forEach(System.out::println);
+                .sorted()
+                .forEach(letter -> System.out.printf("%s ", letter));
     }
 
     public static List<Integer> choseRandomLetters(){
